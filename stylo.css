@@ -1,0 +1,71 @@
+/* Swipe works with mouse as well but often causes text selection. */
+#demo-page * {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+/* Arrow only buttons in the header. */
+#demo-page .ui-header .ui-btn {
+    background: none;
+    border: none;
+    top: 9px;
+}
+#demo-page .ui-header .ui-btn-inner {
+    border: none;
+
+}
+/* Content styling. */
+dl { font-family: "Times New Roman", Times, serif; padding: 1em; background-color: red;}
+dt { font-size: 2em; font-weight: bold; }
+dt span { font-size: .5em; color: #777; margin-left: .5em; }
+dd { font-size: 1.25em; margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px solid #eee; background-color: red;}
+.back-btn { float: right; margin: 0 2em 1em 0;   }
+
+
+/*  MODIFICADO */ 
+
+#bg-VC{
+    
+    height:50px; 
+    width: 100%;
+    background-color: #7C0025;
+    margin: 0 auto;
+    padding: 0;
+
+}
+.ui-panel-inner{
+    margin:0 !important;
+    padding: 0 !important;
+}
+#h1-VC{
+    font-size: 20px;
+   /*border: 2px solid yellow;*/
+}
+.top-VC{
+    background-color: #7C0025;
+    height: 48px;
+    /*border: 4px solid blue;*/
+}
+#logo-VC{
+    display: block;
+    width: 200px;
+    margin: 0px auto;
+    border: 1px solid green;
+    padding-top: 7px;
+}
+#lista-VC{
+    list-style: none;
+    border: 1px solid red;
+    padding:0;
+}
+#lista-VC li{
+    padding:4px;
+}
+#lista-VC li a{
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+    text-transform: capitalize;
+}
