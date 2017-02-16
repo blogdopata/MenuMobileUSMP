@@ -26,6 +26,10 @@ dd { font-size: 1.25em; margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px
 
 /*  MODIFICADO */ 
 
+#left-panel{
+    background-color: #FFFDF4; 
+}
+
 #bg-VC{
     
     height:50px; 
@@ -59,6 +63,7 @@ dd { font-size: 1.25em; margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px
     list-style: none;
    /* border: 1px solid red;*/
     padding:0;
+    background-color: #FFFDF4;
 }
 #lista-VC li{
     padding:4px;
@@ -72,4 +77,8 @@ dd { font-size: 1.25em; margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px
 .img-VC{
   
      margin-right: 20px;
+}
+#button-VC{
+    border: gray;
+    color:gray;
 }
