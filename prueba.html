@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>chann</title>
+	<style>
+		
+		a{
+			height: 30px;
+			background-color: red;
+			display: block;
+			background-image: url("img/intranet.png") ;
+			background-repeat: no-repeat;
+			background-position: 5px 5px;
+			padding: 10px 0 0 40px;
+		}
+	</style>
+</head>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<script>
+			var variableGX = "Esta es la Global";
+
+			var miFuncion= function (){
+				 var variableLX = "Esta es Local 1 ";
+
+				// alert(variableLX);	
+
+				var FuncionLocal = function(){
+					  variableLX = "Soy mas Local 2";
+
+					 alert(variableLX);
+				}
+					FuncionLocal();		
+			}
+				
+				miFuncion();
+
+				alert(variableLX);
+	</script>
+
+<body>
+<a href="#"> 
+	SOY UN BOTON
+</a>
+
+	
+
+
+
+
+</script>
+
+<script>
+	$(document).ready(function(){
+
+
+	});
+
+</script>
+</body>
+</html>

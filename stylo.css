@@ -32,11 +32,11 @@ dd { font-size: 1.25em; margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px
 
 #bg-VC{
     
-    height:50px; 
-    width: 100%;
     background-color: #7C0025;
+    height:50px; 
     margin: 0 auto;
     padding: 0;
+    width: 100%;
 
 }
 .ui-panel-inner{
@@ -54,10 +54,10 @@ dd { font-size: 1.25em; margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px
 }
 #logo-VC{
     display: block;
-    width: 200px;
     margin: 0px auto;
-  /*  border: 1px solid green;*/
     padding-top: 7px;
+    width: 200px;
+  /*  border: 1px solid green;*/
 }
 #lista-VC{
     list-style: none;
@@ -69,16 +69,84 @@ dd { font-size: 1.25em; margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px
     padding:4px;
 }
 #lista-VC li a{
-    text-decoration: none;
+    /*border: 5px solid red;*/
     color: black;
+    display: block;
     font-size: 36px;
+    text-decoration: none;
     text-transform: capitalize;
+   
+    background-repeat: no-repeat;
+    background-position: 5px 18px;
+    padding: 10px 0 0 40px;
+    
 }
-.img-VC{
-  
-     margin-right: 20px;
+#a1-VC{
+    background-image: url("img/intranet.png") ;
 }
-#button-VC{
-    border: gray;
-    color:gray;
+#a2-VC{
+    background-image: url("img/novedades.png") ;   
 }
+#a3-VC{
+    background-image: url("img/agenda.png") ;
+}
+#a4-VC{
+    background-image: url("img/cafeteria.png") ;
+}
+#a5-VC{
+    background-image: url("img/ubicanos.png") ;
+}
+#a6-VC{
+    background-image: url("img/redes_sociales.png") ;
+}
+#a7-VC{
+    background-image: url("img/biblioteca.png") ;   
+}
+#a8-VC{
+    background-image: url("img/contacto.png") ;
+}
+
+
+
+#a1-VC:hover{
+    background-color: #7C0025;
+    background-image: url("img/intranetV.png") ;
+    color:white;
+}
+#a2-VC:hover{
+    background-color: #7C0025;
+    background-image: url("img/novedadesV.png") ;
+    color:white;
+}
+#a3-VC:hover{
+    background-color: #7C0025;
+    background-image: url("img/agendaV.png") ;
+    color:white;
+}
+#a4-VC:hover{
+    background-color: #7C0025;
+    background-image: url("img/cafeteriaV.png") ;
+    color:white;
+}
+#a5-VC:hover{
+    background-color: #7C0025;
+    background-image: url("img/ubicanosV.png") ;
+    color:white;
+}
+#a6-VC:hover{
+    background-color: #7C0025;
+    background-image: url("img/redesV.png") ;
+    color:white;
+}
+#a7-VC:hover{
+    background-color: #7C0025;
+    background-image: url("img/bibliotecaV.png") ;
+    color:white;
+}
+#a8-VC:hover{
+    background-color: #7C0025;
+    background-image: url("img/contactoV.png") ;
+    color:white;
+}
+
+
